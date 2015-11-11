@@ -10,7 +10,7 @@ public class PassFail {
         int a;
         System.out.println("What grade did you get on your test");
         a = in.nextInt();
-        if (a < 50) {
+        if (a < 75) {
             System.out.println("too bad you failed");
         }
         else{
